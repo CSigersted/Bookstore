@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 9. april 2016 11:10:20
+   Source : C:\Users\Sigersted\Documents\Selvstudie\.NET workspace\BookstoreUmbraco\BookstoreUmbraco\Umbraco\
+     Dest : C:\Users\Sigersted\Documents\Selvstudie\.NET workspace\BookstoreUmbraco\BookstoreUmbraco\App_Data\NuGetBackup\20160409-111019\Umbraco\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\Sigersted\Documents\Selvstudie\.NET workspace\BookstoreUmbraco\BookstoreUmbraco\Umbraco\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 9. april 2016 11:10:20
+
