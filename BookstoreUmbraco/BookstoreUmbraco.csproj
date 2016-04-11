@@ -461,7 +461,6 @@
     <Content Include="App_Data\TEMP\ClientDependency\1111625209_1fa33159d4ea4615a70b4f6e72a1035c.cdJ" />
     <Content Include="App_Data\TEMP\ClientDependency\1111625209_7891a2dc9b894c15a27323bed6aecaff.cdC" />
     <Content Include="App_Data\TEMP\ExamineIndexes\SIGERSTED-PC\External\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\SIGERSTED-PC\External\Index\segments_2" />
     <Content Include="App_Data\TEMP\ExamineIndexes\SIGERSTED-PC\External\Index\write.lock" />
     <Content Include="App_Data\TEMP\ExamineIndexes\SIGERSTED-PC\InternalMember\Index\segments.gen" />
     <Content Include="App_Data\TEMP\ExamineIndexes\SIGERSTED-PC\InternalMember\Index\segments_2" />
