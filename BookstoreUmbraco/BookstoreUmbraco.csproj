@@ -622,6 +622,9 @@
     <Content Include="Views\Master.cshtml">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Partials\Navigation.cshtml" />
+    <Content Include="css\Home.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3244,13 +3247,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Controllers\BasketController.cs" />
+    <Content Include="App_Code\Controllers\MerchelloSurfaceController.cs" />
+    <Content Include="App_Code\Models\AddItemModel.cs" />
+    <Content Include="App_Code\Models\ProductListDisplay.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\" />
     <Folder Include="App_Data\64372976-7b8b-4508-9542-abdeb698753e\" />
     <Folder Include="App_Data\Models\" />
     <Folder Include="App_Data\NuGetBackup\20160409-111017\bin\" />
@@ -3258,12 +3264,13 @@
     <Folder Include="App_Data\NuGetBackup\20160409-111019\Umbraco_Client\" />
     <Folder Include="App_Data\packages\created\" />
     <Folder Include="App_Data\TEMP\Install\" />
-    <Folder Include="css\" />
     <Folder Include="media\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Views\Basket\" />
     <Folder Include="Views\MacroPartials\" />
+    <Folder Include="Views\MerchelloSurface\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

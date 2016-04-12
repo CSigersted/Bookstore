@@ -12,7 +12,9 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" ></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-    <title></title>
+    <link href="~/css/Custom.css" rel="stylesheet" />
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <title>@CurrentPage.pageTitel | @CurrentPage.siteName</title>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,8 +24,14 @@
     <![endif]-->
   </head>
   <body>
+      <div class="container-fluid">
+          <div class="container">
+              @Html.Partial("Navigation")
+          </div>
+      </div>
 		<div class="container-fluid">
             <div class="container">
+				@RenderBody()
             </div>
         </div>
   </body>

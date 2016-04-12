@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@inherits Merchello.Web.Mvc.MerchelloTemplatePage
+@using Merchello.Web
+@using Merchello.Web.Models.ContentEditing
+@{
+	Layout = "Master.cshtml";
+}
+<h1>@CurrentPage.Name</h1>
+<br />
+@CurrentPage.bodyText
+<img src="@CurrentPage.pageImage" alt="@CurrentPage.Name" />
+
