@@ -6,8 +6,8 @@
 //    using System.Web;
 //    using Merchello.Web.Models.ContentEditing;
 
-////namespace BookstoreUmbraco.App_Code.Models
-////{
+//    //namespace BookstoreUmbraco.App_Code.Models
+//    //{
 //    public class ProductListDisplay : ProductDisplay
 //    {
 //        /// <summary>

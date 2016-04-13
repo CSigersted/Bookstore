@@ -12,8 +12,8 @@
 //    using Umbraco.Core.Logging;
 //    using Umbraco.Web.Mvc;
 
-////namespace BookstoreUmbraco.App_Code.Controllers
-////{
+//    //namespace BookstoreUmbraco.App_Code.Controllers
+//    //{
 //    [PluginController("MerchelloExample")]
 
 //    public class BasketController : MerchelloSurfaceController
